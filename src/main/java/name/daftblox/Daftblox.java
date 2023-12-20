@@ -16,9 +16,9 @@ public class Daftblox implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	// an instance of our new item
 	// an instance of our new item
-	public static final fabric CUSTOM_ITEM =
-			Registry.register(Registries.ITEM, new Identifier("daftblox", "fabric"),
-		new fabric(new FabricItemSettings()));
+	public static final cloth CUSTOM_ITEM =
+			Registry.register(Registries.ITEM, new Identifier("daftblox", "cloth"),
+		new cloth(new FabricItemSettings()));
 
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("daftblox");
